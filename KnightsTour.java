@@ -29,7 +29,6 @@ public class KnightsTour {
       chess[r][c] = 0;
       return;
     }
-
     chess[r][c] = move; //Fill the chess[r][c] will the move number
 
     //Apply recursive calls on the basis of faith
